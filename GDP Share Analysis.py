@@ -15,6 +15,7 @@ plt.xticks(rotation=90)
 
 plt.xlabel('Year')
 plt.ylabel('Percentage of GDP')
+plt.title('Sector-Wise Share of GDP at 2004-05 prices')
 plt.legend(sectors,prop={'size':10})
 plt.tight_layout()
 
